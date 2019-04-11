@@ -4,10 +4,10 @@ public class TestSpot
 	{
 		Spot s1 = new Spot();
 
+		String marque = new String("Sony");
 		Timer t = new Timer(2000);
 		Led led = new Led(2393, false);
-		Spot s2 = new Spot("Sony", led, t);
-
+		Spot s2 = new Spot(marque, led, t);
 
 		Spot s3 = new Spot(s2);
 
@@ -16,7 +16,7 @@ public class TestSpot
 		s1.setTimer(t);
 
 		s3.allumer();
-		x
+		
 		System.out.println(s1);
 		System.out.println(s2);
 		System.out.println(s3);

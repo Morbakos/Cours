@@ -34,6 +34,7 @@ public class Spot
 
 	/**
 	* Constructeur par copie
+	* @param unSpot Spot à copier
 	*/
 	public Spot(Spot unSpot)
 	{
@@ -115,7 +116,7 @@ public class Spot
 	}
 
 	/**
-	* Methode allumer
+	* Methode eteindre
 	*/
 	public void eteindre()
 	{
