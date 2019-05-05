@@ -17,5 +17,9 @@ public class TestRegistre
 		Registre r4 = new Registre(r3);
 		System.out.println(r4.toString());
 
+		Registre r5 = new Registre();
+		r5.init();
+
+		System.out.println(r5.toString());
 	}
 }
