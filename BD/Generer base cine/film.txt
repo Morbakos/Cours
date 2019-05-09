@@ -1,0 +1,11 @@
+01	15	Crash	Drame	1996
+02	15	Faux-Semblants	Epouvante	1988
+03	14	Pulp Fiction	Policier	1994
+04	13	Breaking the waves	Drame	1996
+05	13	Dogville	Drame	2002
+06	12	Alamo	Western	1960
+07	18	Dangereusement vôtre	Espionnage	1985
+08	19	Chasseur blanc, coeur noir	Drame	1989
+09	19	Minuit dans le jardin du bien et du mal	Policier	\N
+10	21	American Beauty	Drame	1999
+11	\N	L'Echange	\N	2008
