@@ -1,0 +1,9 @@
+Paris
+1
+Lundi   18.0    12.0
+Mardi   18.0    12.0
+Mercredi        -15.0   14.0
+Jeudi   20.0    11.0
+Vendredi        2.0     16.0
+Samedi  7.0     1.0
+Dimanche        7.0     1.0
