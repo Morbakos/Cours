@@ -25,12 +25,10 @@ public class StationMeteo implements StationMeteoConstantes, ActionListener {
 		frame.add(getConsolePane());
 		frame.add(getEastPane(), BorderLayout.EAST);
 		
-		/*Dimension screen = Toolkit.getDefaultToolkit().getScreenSize(); 
+		Dimension screen = Toolkit.getDefaultToolkit().getScreenSize(); 
 		int x = (int) screen.getWidth();
-		int y = (int) screen.getHeight();*/
+		int y = (int) screen.getHeight();
 
-		int x = 700;
-		int y = 400;
 		frame.setSize(x,y);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
