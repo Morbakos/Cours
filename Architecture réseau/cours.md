@@ -141,3 +141,39 @@ log(1) = 0
 |   |1    | 010 0001      |      |        |
 LRC |  1  | 010 0001      |      |        |
 
+## TD4
+
+2)c) 
+
+### Table de M1
+
+Destination | Gateway      | Genmask | flags | interface |
+:---------: | :----------: | :-----: | :---: | :-------: |
+127.0.0.1   |  /           | /8      | U     | lo        |
+129.5.0.0   |  /           | /16     | U     | eth0      |
+default     |  129.5.6.254 | 0.0.0.0 | UG    | eth0      |
+
+### Table de P1
+
+Destination   | Gateway        | Genmask | flags | interface |
+:-----------: | :----------:   | :-----: | :---: | :-------: |
+129.5.0.0     |  /             | /16     | U     | eth0      |
+130.104.0.0   |  /             | /16     | U     | eth1      |
+default       |  130.104.0.254 | 0.0.0.0 | UG    | eth1      |
+
+### Table de P2
+
+Destination   | Gateway          | Genmask | flags | interface |
+:-----------: | :----------:     | :-----: | :---: | :-------: |
+130.104.0.0   |  /               | /16     | U     | eth0      |
+192.33.192.0  |  /               | /24     | U     | eth1      |
+129.5.0.0     |  130.104.105.254 | /24     | U     | eth0      |
+default       |  192.33.192.254  | 0.0.0.0 | UG    | eth1      |
+
+### Table de M3
+
+Destination    | Gateway          | Genmask | flags | interface |
+:-----------:  | :----------:     | :-----: | :---: | :-------: |
+16.0.0.0       |  /               | /8      | U     | eth0      |
+129.10.0.0     |  16.16.16.254    | /16     | U     | eth0      |
+default        |  16.10.10.254    | 0.0.0.0 | UG    | eth0      |

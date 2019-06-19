@@ -1,7 +1,9 @@
 import javax.swing.*;
+import javax.swing.filechooser.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
+import java.util.ArrayList; // import the ArrayList class
 
 interface StationMeteoConstantes {
 	public static String[] jourSemaine = {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"};
@@ -10,7 +12,8 @@ interface StationMeteoConstantes {
 
 public class StationMeteo implements StationMeteoConstantes, ActionListener {
 
-	JTextArea consoleLabel = new JTextArea();
+	JTextArea consoleLabel = new JTextArea(); 
+	private ArrayList<JTextField> infos = new ArrayList<JTextField>();
 
 	public StationMeteo(String titre) {
 		this.initialisation(titre);
@@ -29,14 +32,40 @@ public class StationMeteo implements StationMeteoConstantes, ActionListener {
 		int x = (int) screen.getWidth();
 		int y = (int) screen.getHeight();
 
-		frame.setSize(x,y);
+		frame.setSize(x, y);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 	}
 
 	public void actionPerformed(ActionEvent e){
-		consoleLabel.setText(e.getActionCommand());
+
+		if(e.getActionCommand() == "Charger") {
+			readFile(consoleLabel);		
+		
+		} 
+		else if (e.getActionCommand() == "Sauvegarder") 
+		{
+			String s = "Valeurs relevées\n";
+			s = s + "================\n";
+			s = s + "Place : " + this.infos.get(0).getText() + "\n";
+			s = s + "Semaine : " + this.infos.get(1).getText() + "\n";
+			s = s + "Temperature : " + this.infos.get(2).getText() + "\n";
+			s = s + "Precipitation : " + this.infos.get(3).getText() + "\n";
+			makeFile(s);
+		}
+		else
+		{
+			String s = e.getActionCommand() + "\n";
+			s = s + "Place : " + this.infos.get(0).getText() + "\n";
+			s = s + "Semaine : " + this.infos.get(1).getText() + "\n";
+			s = s + "Temperature : " + this.infos.get(2).getText() + "\n";
+			s = s + "Precipitation : " + this.infos.get(3).getText() + "\n";
+
+			consoleLabel.setText(s);
+
+		}
+
 	}
 
 	/**
@@ -53,7 +82,9 @@ public class StationMeteo implements StationMeteoConstantes, ActionListener {
 		{
 			JLabel label = new JLabel(StationMeteoConstantes.infos[i]);
 			subFrontPanel.add(label);
-			subFrontPanel.add(new JTextField(5));
+			JTextField field = new JTextField(5);
+			subFrontPanel.add(field);
+			this.infos.add(field);
 		}
 
 		frontPanel.add(subFrontPanel);
@@ -100,6 +131,9 @@ public class StationMeteo implements StationMeteoConstantes, ActionListener {
 		JButton boutonS = new JButton("Sauvegarder");
 		subSouthPanel.add(boutonC);
 		subSouthPanel.add(boutonS);
+
+		boutonC.addActionListener(this);
+		boutonS.addActionListener(this);
 		
 		southPanel.add(subSouthPanel);
 		subSouthPanel.setBackground(Color.lightGray);
@@ -114,8 +148,6 @@ public class StationMeteo implements StationMeteoConstantes, ActionListener {
 	public JPanel getConsolePane(){
 
 		JPanel consolePanel = new JPanel();
-
-		readFile(consoleLabel);
 		
 		consoleLabel.setEditable(false);
 		consolePanel.add(consoleLabel);
@@ -140,10 +172,29 @@ public class StationMeteo implements StationMeteoConstantes, ActionListener {
 	public void readFile(JTextArea console){ 
 	  
 		try {
-			FileReader fileReader = new FileReader("./test.txt");
-			BufferedReader bufferReader = new BufferedReader(fileReader);
+			JFileChooser chooser = new JFileChooser();
+		    int returnVal = chooser.showOpenDialog(console);
+		    if(returnVal == JFileChooser.APPROVE_OPTION) {
+				FileReader fileReader = new FileReader(chooser.getSelectedFile());
+				BufferedReader bufferReader = new BufferedReader(fileReader);
 
-			console.read(bufferReader, null);
+				console.read(bufferReader, null);
+			}
+		} catch(Exception e) {
+			System.out.println(e.toString());
+		}
+	}
+
+	/**
+		Permet d'obtenir lire un fichier
+	*/
+	public void makeFile(String s){ 
+	  
+		try {
+			BufferedWriter writer = new BufferedWriter(new FileWriter("valeurs.txt"));
+		    writer.write(s);
+		    writer.close();
+		
 		} catch(Exception e) {
 			System.out.println(e.toString());
 		}

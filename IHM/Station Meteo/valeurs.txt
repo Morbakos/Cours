@@ -1,0 +1,6 @@
+Valeurs relevées
+================
+Place : Londre
+Semaine : 52
+Temperature : 23
+Precipitation : 4
