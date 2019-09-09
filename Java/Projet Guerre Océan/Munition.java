@@ -1,4 +1,4 @@
-public class Munition {
+public abstract class Munition {
 	
 	private int puissance;
 

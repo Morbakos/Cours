@@ -12,6 +12,9 @@ public class Torpille extends Munition {
 
 	/**
 	 Constructeur champ a champ
+	 @param unePortee portee de la torpille
+	 @param unePuissance puissance de la torpille
+	 @param uneProfondeur profondeur de la torpille
 	 */
 	public Torpille(int unePortee, int unePuissance, int uneProfondeur) {
 		super(unePuissance);
@@ -21,6 +24,7 @@ public class Torpille extends Munition {
 
 	/**
 	 Constructeur par copie
+	 @param unTorpille torpille a copier
 	 */
 	public Torpille(Torpille unTorpille) {
 		super(unTorpille);
@@ -47,5 +51,13 @@ public class Torpille extends Munition {
 	 */
 	public int getPortee() {
 		return this.portee;
+	}
+
+	/**
+	 Retourne la profondeur de la munition courante
+	 @return int
+	 */
+	public int getProfondeur() {
+		return this.profondeur;
 	}
 }

@@ -11,6 +11,8 @@ public class Missile extends Munition {
 
 	/**
 	 Constructeur champ a champ
+	 @param unePortee portee du missile
+	 @param unePuissance puissance du missile
 	 */
 	public Missile(int unePortee, int unePuissance) {
 		super(unePuissance);
@@ -19,6 +21,7 @@ public class Missile extends Munition {
 
 	/**
 	 Constructeur par copie
+	 @param unMissile missile a copier
 	 */
 	public Missile(Missile unMissile) {
 		super(unMissile);

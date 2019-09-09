@@ -11,6 +11,8 @@ public class Mine extends Munition {
 
 	/**
 	 Constructeur champ a champ
+	 @param unePuissance puissance de la mine
+	 @param uneProfondeur profondeur de la mine
 	 */
 	public Mine(int unePuissance, int uneProfondeur) {
 		super(unePuissance);
@@ -19,6 +21,7 @@ public class Mine extends Munition {
 
 	/**
 	 Constructeur par copie
+	 @param uneMine mine a copier
 	 */
 	public Mine(Mine uneMine) {
 		super(uneMine);
