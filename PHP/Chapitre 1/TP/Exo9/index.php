@@ -1,51 +1,65 @@
-<h1 style="color: red;">Ancienne version du TP</h1>
-
 <?php
+require_once("../Exo6/todolist.php");
+session_start();
 
-if( isset($_POST['calcul']) && preg_match("#^(\d+)([+/*-])(\d+)$#", $_POST['calcul'], $match) )
+if(!isset($_SESSION["tdl"]))
 {
-	echo "Résultat de ".$_POST['calcul']." : ";
-	
-	switch ($match[2]) {
-		case '+':
-		echo $match[1] + $match[3];
-		break;
-
-		case '-':
-		echo $match[1] - $match[3];
-		break;
-
-		case '*':
-		echo $match[1] * $match[3];
-		break;
-
-		case '/':
-		echo $match[1] / $match[3];
-		break;
-
-		default:
-		echo "Une erreur s'est produite.";
-		break;
+	$_SESSION["tdl"] = new TODO();
+	if(isset($_COOKIE["tdl"]))
+	{
+		$_SESSION["tdl"]->set_representation($_COOKIE["tdl"]);
 	}
 }
-else
+
+if(isset($_GET["tache"]) && trim($_GET["tache"]) != "")
 {
-	echo "Erreur, veuillez refaire votre calcul";
-	echo "<hr>";
+	$_SESSION["tdl"]->add_todo($_GET["tache"]);
 }
+
+if(isset($_GET["id"]))
+{
+	$_SESSION["tdl"]->remove_todo($_GET["id"]);
+}
+
+if(isset($_GET["action"]))
+{
+	if ($_GET["action"] == "save") {
+		setcookie("tdl",  $_SESSION['tdl']->get_representation(), time() + 3600*60*60, null, null, false, true);
+	}
+	elseif ($_GET["action"] == "delete") {
+		setcookie("tdl",  "", time() - 1);
+	}
+	elseif ($_GET["action"] == "deleteS") {
+		unset($_SESSION["tdl"]);
+	}
+}
+
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Calculatrice</title>
+	<title>TODOList</title>
+	<meta charset="utf-8">
 </head>
 <body>
+	
+	<h1>Ma TODOLIST</h1>
+	<?php
+		//echo $_SESSION["tdl"]->getHTML();
+	//echo $_SESSION["tdl"]->get_representation();
+	//$_SESSION["tdl"]->set_representation(" /// ");
+	echo $_SESSION["tdl"]->getHTML();
 
-	<form action="" method="POST">
-		<input type="text" name="calcul" placeholder="Saisissez l'opération">
-		<input type="submit" value="Calculer">
-	</form>
+	echo "<a href='index.php?action=save'>Sauvegarder la todolist</a><br><a href='index.php?action=delete'>Supprimer la todolist</a><br><a href='index.php?action=deleteS'>Supprimer la session_commit()</a>"
+	?>
+
+	<p>
+		<form action="index.php">
+			<input type="text" name="tache">
+			<input type="submit" value="Ajouter une tâche">
+		</form>
+	</p>
 
 </body>
 </html>
