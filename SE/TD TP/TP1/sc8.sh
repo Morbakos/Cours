@@ -14,7 +14,7 @@ if [ -d $src ]; then
             for f in $filelist ; do
                 if [ $file == $f ]; then
                     echo "un fichier $file existe déjà dans $dest"
-                    if [ $file -ot $f1 ]; then
+                    if [ $file -ot $f ]; then
                         echo "et il est plus recent"
                         peutcopier=1
                     fi
