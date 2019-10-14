@@ -167,6 +167,7 @@ insert into ems1
 				UPDATE ems2 set salle=NEW.salle
 				WHERE nom=OLD.Nom and matiere=OLD.matiere;
 			);
+      
 			-- inserer avant delete
 			CREATE or replace RULE updr_ems
 			AS ON update TO ems
