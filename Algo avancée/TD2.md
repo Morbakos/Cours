@@ -121,3 +121,183 @@ public class FileCellule implements File
     
 }
 ```
+
+
+# TD 3
+
+```java
+public class MaListeExtremite implements ListeCurseur
+{
+    private ListeCurseur liste;
+
+    public MaListeExtremite()
+    {}
+
+    public boolean estVide()
+    {
+        liste.allerAuDebut();
+        return liste.estEnFin();
+    }
+
+    public Object voirTete() throws Exception
+    {
+        liste.allerAuDebut();
+        liste.voirSuivant();
+    }
+
+    public Object voirEnQueue() throws Exception
+    {
+        int i = 0;
+        int j = 0;
+        liste.allerAuDebut();
+        while (!liste.estEnFin())
+        {
+            liste.avancer();
+            i++;
+        }
+
+        liste.allerAuDebut();
+        
+        while(j < i-1)
+        {
+            liste.avancer();
+            j++;
+        }
+
+        Object data = liste.voirSuivant();
+        return data;
+    }    
+
+    public void rajouterEnTete(Object item)
+    {
+        liste.allerAuDebut();
+        liste.ajouter(item);
+    }
+
+    public Object retirerEnTete() throws Exception
+    {
+        liste.allerAuDebut();
+        Object data = liste.voirSuivant();
+        liste.supprimer();
+        return data;
+    }
+
+    public void rajouterEnQueue(Object item)
+    {
+        while (!liste.estEnFin())
+        {
+            liste.avancer();
+        }
+        liste.ajouter(item);
+    }
+
+    public Object retirerEnQueue() throws Exception
+    {
+        Object data = liste.voirEnQueue();
+        liste.supprimer();
+        return data;
+    }    
+
+    public String toString()
+    {
+        String s = "";
+        liste.allerAuDebut();
+        while (!liste.estEnFin()) {
+            s = s + liste.voirSuivant().toString() + "\n";
+        }
+        return s;
+    }
+}
+```
+
+```java
+public class MaListeExtremiteC implements Cellule
+{
+    private Cellule cellule;
+
+    public MaListeExtremiteC()
+    {}
+
+    public MaListeExtremiteC(Object[] tabSource)
+    {
+        this.cellule = new Cellule(tabSource[0]);
+        Cellule cell = this.cellule;
+        for (int i = 0; i <= tabSource.length; i ++) {
+            cell.setSuivant(new Cellule(tabSource[i]));
+            cell = cell.getSuivant();
+        }
+    } 
+
+    public boolean estVide()
+    {
+        return this.cellule == null;
+    }
+
+    public Object voirTete() throws Exception
+    {
+        return this.cellule.getElement();
+    }
+
+    public Object voirEnQueue() throws Exception
+    {
+        Cellule c = this.cellule;
+        while (c.getSuivant() != null )
+        {
+            c = c.getSuivant();
+        }
+
+        return c.getElement();
+    }    
+
+    public void rajouterEnTete(Object item)
+    {
+        Cellule cell = new Cellule(item);
+        cell.setSuivant(this.cellule);
+        this.cellule = cell;
+    }
+
+    public Object retirerEnTete() throws Exception
+    {
+
+        Object data = this.cellule.getElement();
+        Cellule cell = this.cellule.getSuivant();
+        this.cellule.setSuivant(null);
+        this.cellule = cell;
+        return data;
+    }
+
+    public void rajouterEnQueue(Object item)
+    {
+        Cellule c = this.cellule;
+        while (!c.getSuivant() != null )
+        {
+            c = c.getSuivant();
+        }
+
+        c.setSuivant(new Cellule(item));
+    }
+
+    public Object retirerEnQueue() throws Exception
+    {
+        Cellule c = this.cellule;
+        while (!c.getSuivant().getSuivant() != null )
+        {
+            c = c.getSuivant();
+        }
+
+        c.getSuivant.setSuivant(null);
+        return c.getElement();
+    }    
+
+    public String toString()
+    {
+        String s = "";
+        Cellule c = this.cellule;
+        while (!c.getSuivant() != null) {
+            s = s + c.getElement().toString() + "\n";
+            c = c.getSuivant();
+        }
+        return s;
+    }
+}
+```
