@@ -1,0 +1,28 @@
+[2019-12-23 09:46:10.264] [exthost] [info] extension host started
+[2019-12-23 09:46:10.377] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-12-23 09:46:10.380] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-12-23 09:46:10.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-12-23 09:46:10.403] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-12-23 09:46:10.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-12-23 09:46:10.592] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/git/dist/main
+[2019-12-23 09:46:10.790] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-12-23 09:46:10.790] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-12-23 09:46:10.799] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2019-12-23 09:46:10.800] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.1404/out/prod/extension-prod
+[2019-12-23 09:46:11.551] [exthost] [info] eager extensions activated
+[2019-12-23 09:48:36.082] [exthost] [info] extension host started
+[2019-12-23 09:48:36.098] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-12-23 09:48:36.098] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-12-23 09:48:36.101] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-12-23 09:48:36.101] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-12-23 09:48:36.114] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-12-23 09:48:36.114] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/git/dist/main
+[2019-12-23 09:48:36.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-12-23 09:48:36.133] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-12-23 09:48:36.136] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2019-12-23 09:48:36.137] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.1404/out/prod/extension-prod
+[2019-12-23 09:48:36.250] [exthost] [info] eager extensions activated
+[2019-12-23 09:53:40.952] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"onLanguage:twig"}
+[2019-12-23 09:53:40.953] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2019-12-23 09:58:52.759] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2019-12-23 09:58:52.760] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/php-language-features/dist/phpMain

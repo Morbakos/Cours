@@ -1,0 +1,27 @@
+[2019-12-29 19:53:49.720] [sharedprocess] [info] main {"machineId":"42fca9d38ad1bb3acebcf314e5298bb3853d374f9473f2befa57d6a229ff36f6","windowId":2}
+[2019-12-29 19:54:01.406] [sharedprocess] [info] Installing extension: felixfbecker.php-intellisense
+[2019-12-29 19:54:05.436] [sharedprocess] [info] Downloaded extension: felixfbecker.php-intellisense /tmp/6f8261eb-46a7-45d6-afd6-0c6a53fb83e5
+[2019-12-29 19:54:21.893] [sharedprocess] [info] Extracted extension to /home/alexis/.vscode/extensions/.felixfbecker.php-intellisense-2.3.14: felixfbecker.php-intellisense
+[2019-12-29 19:54:21.893] [sharedprocess] [info] Renamed to /home/alexis/.vscode/extensions/felixfbecker.php-intellisense-2.3.14
+[2019-12-29 19:54:21.895] [sharedprocess] [info] Installation completed. felixfbecker.php-intellisense
+[2019-12-29 19:54:21.906] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-intellisense
+[2019-12-29 19:54:29.548] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-12-29 19:54:29.553] [sharedprocess] [info] Skipping directory 3758cb9934a694dc60964fb3f96302f0.fr. Language pack still in use.
+[2020-01-08 03:14:28.900] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-01-08 03:17:31.967] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/3017350b-25f8-42e7-9997-0caec011e83e
+[2020-01-08 03:17:39.668] [sharedprocess] [info] Extracted extension to /home/alexis/.vscode/extensions/.ms-python.python-2020.1.57204: ms-python.python
+[2020-01-08 03:17:39.669] [sharedprocess] [info] Renamed to /home/alexis/.vscode/extensions/ms-python.python-2020.1.57204
+[2020-01-08 03:17:39.676] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-01-08 03:17:39.695] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2020-01-13 01:32:11.879] [sharedprocess] [info] Installing extension: ms-vsliveshare.vsliveshare
+[2020-01-13 01:33:01.763] [sharedprocess] [info] Installing extension: bmewburn.vscode-intelephense-client
+[2020-01-13 01:33:20.953] [sharedprocess] [info] Downloaded extension: ms-vsliveshare.vsliveshare /tmp/7f78a94c-89cb-4261-840e-2cb0dd53cebb
+[2020-01-13 01:33:24.879] [sharedprocess] [info] Extracted extension to /home/alexis/.vscode/extensions/.ms-vsliveshare.vsliveshare-1.0.1456: ms-vsliveshare.vsliveshare
+[2020-01-13 01:33:24.880] [sharedprocess] [info] Renamed to /home/alexis/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.1456
+[2020-01-13 01:33:24.886] [sharedprocess] [info] Installation completed. ms-vsliveshare.vsliveshare
+[2020-01-13 01:33:24.911] [sharedprocess] [info] Extensions installed successfully: ms-vsliveshare.vsliveshare
+[2020-01-13 01:33:34.369] [sharedprocess] [info] Downloaded extension: bmewburn.vscode-intelephense-client /tmp/e6a95d99-f676-4d06-b245-c1aea2b56d9e
+[2020-01-13 01:33:36.309] [sharedprocess] [info] Extracted extension to /home/alexis/.vscode/extensions/.bmewburn.vscode-intelephense-client-1.3.7: bmewburn.vscode-intelephense-client
+[2020-01-13 01:33:36.310] [sharedprocess] [info] Renamed to /home/alexis/.vscode/extensions/bmewburn.vscode-intelephense-client-1.3.7
+[2020-01-13 01:33:36.316] [sharedprocess] [info] Installation completed. bmewburn.vscode-intelephense-client
+[2020-01-13 01:33:36.334] [sharedprocess] [info] Extensions installed successfully: bmewburn.vscode-intelephense-client

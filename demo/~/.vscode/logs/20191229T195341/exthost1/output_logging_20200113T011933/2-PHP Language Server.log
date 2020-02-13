@@ -1,0 +1,22 @@
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 01:19:36] 7 files total
+[Info  - 01:19:36] Indexing project for definitions and static references
+Parsing file:///var/www/html/Revisions/index.php
+Parsing file:///var/www/html/Revisions/Controllers/Controller.php
+Parsing file:///var/www/html/Revisions/Views/view_begin.php
+Parsing file:///var/www/html/Revisions/Views/view_end.php
+Parsing file:///var/www/html/Revisions/Views/view_message.php
+Parsing file:///var/www/html/Revisions/Utils/functions.php
+Parsing file:///var/www/html/Revisions/Models/Model.php
+[Info  - 01:19:36] Indexing project for dynamic references
+Parsing file:///var/www/html/Revisions/index.php
+Parsing file:///var/www/html/Revisions/Controllers/Controller.php
+Parsing file:///var/www/html/Revisions/Views/view_begin.php
+Parsing file:///var/www/html/Revisions/Views/view_end.php
+Parsing file:///var/www/html/Revisions/Views/view_message.php
+Parsing file:///var/www/html/Revisions/Utils/functions.php
+Parsing file:///var/www/html/Revisions/Models/Model.php
+[Info  - 01:19:36] 0 Packages
+[Info  - 01:19:36] All 7 PHP files parsed in 0 seconds. 170 MiB allocated.

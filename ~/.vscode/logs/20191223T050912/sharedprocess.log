@@ -1,0 +1,15 @@
+[2019-12-23 05:09:17.200] [sharedprocess] [info] main {"machineId":"42fca9d38ad1bb3acebcf314e5298bb3853d374f9473f2befa57d6a229ff36f6","windowId":2}
+[2019-12-23 05:09:17.615] [sharedprocess] [info] Deleted from disk ms-vsliveshare.vsliveshare /home/alexis/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.1377
+[2019-12-23 05:09:57.143] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-12-23 05:57:47.207] [sharedprocess] [info] Installing extension: ecmel.vscode-html-css
+[2019-12-23 05:57:47.525] [sharedprocess] [info] Downloaded extension: ecmel.vscode-html-css /tmp/b4d90fb7-37d1-48e0-adf1-f610404a76c2
+[2019-12-23 05:57:47.764] [sharedprocess] [info] Extracted extension to /home/alexis/.vscode/extensions/.ecmel.vscode-html-css-0.2.3: ecmel.vscode-html-css
+[2019-12-23 05:57:47.765] [sharedprocess] [info] Renamed to /home/alexis/.vscode/extensions/ecmel.vscode-html-css-0.2.3
+[2019-12-23 05:57:47.766] [sharedprocess] [info] Installation completed. ecmel.vscode-html-css
+[2019-12-23 05:57:47.774] [sharedprocess] [info] Extensions installed successfully: ecmel.vscode-html-css
+[2019-12-23 06:00:33.412] [sharedprocess] [info] Installing extension: whatwedo.twig
+[2019-12-23 06:00:33.688] [sharedprocess] [info] Downloaded extension: whatwedo.twig /tmp/0eaec43d-4903-4cd2-af2d-fa8d4bd24cc5
+[2019-12-23 06:00:33.739] [sharedprocess] [info] Extracted extension to /home/alexis/.vscode/extensions/.whatwedo.twig-1.0.2: whatwedo.twig
+[2019-12-23 06:00:33.739] [sharedprocess] [info] Renamed to /home/alexis/.vscode/extensions/whatwedo.twig-1.0.2
+[2019-12-23 06:00:33.742] [sharedprocess] [info] Installation completed. whatwedo.twig
+[2019-12-23 06:00:33.746] [sharedprocess] [info] Extensions installed successfully: whatwedo.twig

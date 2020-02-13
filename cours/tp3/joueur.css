@@ -1,0 +1,40 @@
+body
+{
+	font-family: sans;
+}
+
+h2
+{
+	font-size: 16px;
+}
+#joueurs
+{
+	box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+	border-radius: 2px;
+	border-collapse: collapse;
+	margin-left: 40px;
+}
+
+#joueurs td
+{
+	padding: 3px 10px;
+}
+#joueurs tr
+{
+	background-color: #f0f0ff;
+}
+
+#joueurs tr:nth-child(2n)
+{
+	background-color: #efe;
+}
+
+#ajouter input[type='text']
+{
+	width: 80px;
+}
+
+#ajout-nom
+{
+	margin-right: 10px;
+}

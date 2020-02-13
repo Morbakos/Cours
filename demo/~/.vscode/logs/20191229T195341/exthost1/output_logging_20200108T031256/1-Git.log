@@ -1,0 +1,56 @@
+Recherche de git dans : git
+Utilisation de git 2.17.1 à partir de git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/alexis/Documents/jiddu_ai
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse students
+> git rev-parse --symbolic-full-name students@{u}
+> git rev-list --left-right students...refs/remotes/origin/students
+> git config --global user.email
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :zero_ai/dev/Poem_vers/DCC.py
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :zero_ai/dev/UX/DCC.py
+> git show :zero_ai/dev/Poem_vers/DCC.py
+> git show :zero_ai/dev/UX/DCC.py
+> git show :zero_ai/dev/Poem_vers/DCC.py
+> git show :zero_ai/dev/UX/DCC.py
+> git show :zero_ai/dev/Poem_vers/DCC.py
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :zero_ai/dev/scrap sardou/csv/sardou.csv
+> git show :zero_ai/dev/Poem_vers/DCC.py
+> git check-ignore -v -z --stdin
+> git show :zero_ai/dev/Poem_vers/src/poet.txt
+> git show :zero_ai/dev/Poem_vers/DCC.py
+> git show :zero_ai/dev/Poem_vers/song_scraping.py
+> git check-ignore -v -z --stdin
+> git show :zero_ai/dev/Poem_vers/DCC.py
+> git show :zero_ai/dev/UX/test_scraping.py
+> git show :zero_ai/dev/UXless/DCC.py
+> git show :zero_ai/dev/UX/DCC.py
+> git show :zero_ai/dev/UXless/DCC.py
+> git check-ignore -v -z --stdin
+> git show :zero_ai/dev/Poem_vers/DCC.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse students
+> git rev-parse --symbolic-full-name students@{u}
+> git rev-list --left-right students...refs/remotes/origin/students
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :zero_ai/dev/Poem_vers/song_scraping.py
+> git show :zero_ai/dev/Poem_vers/DCC.py

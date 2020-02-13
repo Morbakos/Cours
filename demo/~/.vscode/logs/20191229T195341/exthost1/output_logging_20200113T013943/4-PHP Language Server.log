@@ -1,0 +1,11 @@
+[Error - 01:39:43] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/home/alexis/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-jsonrpc/lib/main.js:876:25)
+	at Object.dispose (/home/alexis/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:71:35)
+	at /home/alexis/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:2062:28
+[Error - 01:39:43] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/home/alexis/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-jsonrpc/lib/main.js:876:25)
+	at Object.dispose (/home/alexis/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:71:35)
+	at /home/alexis/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:2062:28
+Language server exited with exit code 0

@@ -1,0 +1,35 @@
+[2020-01-20 16:07:12.003] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+	at Object.t.illegalArgument (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:9:868)
+	at new f (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:775)
+	at new f (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:169)
+	at new m (/home/alexis/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension.js:127:27259)
+	at f.provideCompletionItems (/home/alexis/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension.js:127:27842)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:568:526
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:52:363
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:52:335)
+	at T.provideCompletionItems (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:568:497)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:583:783
+	at H._withAdapter (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:901)
+	at H.$provideCompletionItems (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:583:761)
+	at f._doInvokeHandler (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:646:285)
+	at f._invokeHandler (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:645:999)
+	at f._receiveRequest (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:644:613)
+	at f._receiveOneMessage (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:643:477)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:641:754
+	at l.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:207)
+	at _.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:274)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:285
+	at l.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:207)
+	at _.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:274)
+	at t.PersistentProtocol._receiveMessage (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:629)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:824
+	at l.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:207)
+	at f.acceptChunk (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:184:737)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:184:89
+	at Socket.t (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:193:68)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)

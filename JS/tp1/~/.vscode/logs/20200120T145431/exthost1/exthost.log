@@ -1,0 +1,82 @@
+[2020-01-20 15:02:26.475] [exthost] [info] extension host started
+[2020-01-20 15:02:26.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-01-20 15:02:26.528] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-01-20 15:02:26.539] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-01-20 15:02:26.540] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-01-20 15:02:26.608] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-01-20 15:02:26.608] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/git/dist/main
+[2020-01-20 15:02:26.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-01-20 15:02:26.751] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-01-20 15:02:26.765] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2020-01-20 15:02:26.765] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.1482/out/prod/extension-prod
+[2020-01-20 15:02:27.295] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-01-20 15:02:27.295] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-01-20 15:02:29.206] [exthost] [info] eager extensions activated
+[2020-01-20 15:02:32.625] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-01-20 15:02:32.625] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-01-20 15:02:32.690] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"onLanguage:html"}
+[2020-01-20 15:02:32.690] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2020-01-20 15:03:32.200] [exthost] [info] extension host started
+[2020-01-20 15:03:32.274] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:html"}
+[2020-01-20 15:03:32.276] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-01-20 15:03:32.324] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-01-20 15:03:32.324] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-01-20 15:03:32.383] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"onLanguage:html"}
+[2020-01-20 15:03:32.383] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2020-01-20 15:03:32.530] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-01-20 15:03:32.530] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-01-20 15:03:32.536] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-01-20 15:03:32.536] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/git/dist/main
+[2020-01-20 15:03:32.640] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-01-20 15:03:32.640] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-01-20 15:03:32.647] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2020-01-20 15:03:32.647] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.1482/out/prod/extension-prod
+[2020-01-20 15:03:33.087] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-01-20 15:03:33.087] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alexis/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-01-20 15:03:34.326] [exthost] [info] eager extensions activated
+[2020-01-20 15:05:06.208] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-01-20 15:05:06.209] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-01-20 15:05:12.407] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-01-20 15:05:12.407] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2020-01-20 15:05:12.437] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-01-20 15:05:12.437] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-01-20 15:50:58.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-01-20 15:50:58.752] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-01-20 16:06:50.860] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-01-20 16:06:50.860] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/21/usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2020-01-20 16:07:11.968] [exthost] [error] [ecmel.vscode-html-css] provider FAILED
+[2020-01-20 16:07:11.999] [exthost] [error] Error: Illegal argument: line must be non-negative
+	at Object.t.illegalArgument (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:9:868)
+	at new f (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:775)
+	at new f (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:354:169)
+	at new m (/home/alexis/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension.js:127:27259)
+	at f.provideCompletionItems (/home/alexis/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension.js:127:27842)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:568:526
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:52:363
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:52:335)
+	at T.provideCompletionItems (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:568:497)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:583:783
+	at H._withAdapter (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:901)
+	at H.$provideCompletionItems (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:583:761)
+	at f._doInvokeHandler (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:646:285)
+	at f._invokeHandler (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:645:999)
+	at f._receiveRequest (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:644:613)
+	at f._receiveOneMessage (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:643:477)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:641:754
+	at l.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:207)
+	at _.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:274)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:285
+	at l.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:207)
+	at _.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:274)
+	at t.PersistentProtocol._receiveMessage (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:629)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:824
+	at l.fire (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:207)
+	at f.acceptChunk (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:184:737)
+	at /snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:184:89
+	at Socket.t (/snap/code/21/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:193:68)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
