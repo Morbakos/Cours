@@ -1,0 +1,23 @@
+Licence GPL v3 : voir  
+https://www.gnu.org/licenses/gpl-3.0.fr.html
+
+Résumé (voir le sujet de TDTP n°2) :
+
+* Ne pas modifier les fichiers .h et test....c ni le Makefile
+
+* Il faut compléter les fichiers 
+matrices.c : fonctions sommeMatrices et produitMatrices
+
+multi.c : fonctions proc_start, proc_join, thread_start, thread_join
+
+multimat.c : fonctions  sommeChunk et produitChunk
+
+Compilation : 
+make testmatrices 
+make testmulti
+make testmultimat
+
+Tests :
+make verif_matrices
+make verif_multi
+make verif_multimat
