@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculatrice version 1</string>
+    <string name="op_1">opér 1</string>
+    <string name="op_2">opér 2</string>
+    <string name="operateur">+-/*</string>
+    <string name="resultat">résultat</string>
+    <string name="calculer">Calculer</string>
+    <string name="retour">Retour</string>
+    <string name="bt_plus">+</string>
+    <string name="bt_moins">-</string>
+    <string name="bt_mult">*</string>
+    <string name="bt_div">/</string>
+    <string name="erreur_operandes_manquantes">Operande(s) manquante(s) !</string>
+</resources>

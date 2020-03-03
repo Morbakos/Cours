@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:5:5-19:19
+	android:supportsRtl
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:6:9-35
+activity#fr.m4104.calculatrice_v_1_1.MainActivity
+ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:10:9-16:20
+	android:name
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:10:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:11:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:14:27-74
+activity#fr.m4104.calculatrice_v_1_1.Calcul
+ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:18:9-53
+	android:name
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml:18:19-41
+uses-sdk
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marmotton/workspaces/AndroidStudioProjects_2019_2020/M4104_2019_2020_tp3_calculatrice_v_1.1_etudiant/app/src/main/AndroidManifest.xml

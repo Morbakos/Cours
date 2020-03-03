@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- ************************************************************
+                                 Afficheur
+         ************************************************************ -->
+    <TextView  style="@style/afficheur"
+        android:id="@+id/textView1"
+        android:textSize="@dimen/text_size_port"
+        />
+
+    <!-- ************************************************************
+                                Clavier
+       ************************************************************ -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="0.65"
+        android:orientation="horizontal">
+
+        <TableLayout style="@style/table_layout_port_clavier_1"
+            android:layout_weight="2"
+            >
+            <TableRow style="@style/table_row">
+                <Button
+                    android:id="@+id/bt_ac"
+                    style="@style/bouton_calculatrice_chiffre_port"
+                    android:text="@string/bt_ac" />
+                <Button
+                    android:id="@+id/bt_backspace"
+                    style="@style/bouton_calculatrice_chiffre_port"
+                    android:text="@string/bt_backspace" />
+            </TableRow>
+
+
+            <TableRow style="@style/table_row">
+                <Button
+                    android:id="@+id/bt_sept"
+                    style="@style/bouton_calculatrice_chiffre_port"
+                    android:text="@string/bt_sept" />
+                <Button
+                    android:id="@+id/bt_huit"
+                    style="@style/bouton_calculatrice_chiffre_port"
+                    android:text="@string/bt_huit" />
+                <Button
+                    android:id="@+id/bt_neuf"
+                    style="@style/bouton_calculatrice_chiffre_port"
+                    android:text="@string/bt_neuf" />
+            </TableRow>
+
+            <!-- A compléter -->
+
+        </TableLayout>
+
+        <!-- ************************************************************
+             ************************************************************ -->
+
+        <TableLayout style="@style/table_layout_port_clavier_2">
+
+            <TableRow style="@style/table_row">
+                <Button
+                    android:id="@+id/bt_div"
+                    style="@style/bouton_calculatrice_chiffre_port"
+                    android:text="@string/bt_div" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <Button
+                    android:id="@+id/bt_fois"
+                    style="@style/bouton_calculatrice_chiffre_port"
+                    android:text="@string/bt_fois" />
+            </TableRow>
+
+            <!-- A compléter -->
+
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

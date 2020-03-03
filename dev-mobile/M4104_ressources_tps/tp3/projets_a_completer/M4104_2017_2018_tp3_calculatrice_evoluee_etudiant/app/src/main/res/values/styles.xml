@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Style génral pour les boutons -->
+    <style name="bouton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!-- Style spécifique pour les boutons de chiffres pour une calculatrice scientifique -->
+    <style name="bouton_calculatrice_chiffre_land" parent="bouton">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- Style spécifique pour les boutons de chiffres pour une calculatrice normale -->
+     <style name="bouton_calculatrice_chiffre_port" parent="bouton">
+         <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <!--  Style spécifique pour les boutons de fonctions  pour une calculatrice scientifique -->
+     <style name="bouton_calculatrice_fonction_scientifique" parent="bouton">
+         <item name="android:textSize">10sp</item>
+         <item name="android:background">@android:color/holo_green_light</item>
+    </style>
+
+
+    <!-- Style pour l'afficheur -->
+    <style name="afficheur">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.35</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_size_land</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">@dimen/activity_margin</item>
+    </style>
+
+
+    <style name="table_layout">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:stretchColumns">*</item>
+
+    </style>
+
+    <style name="table_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="table_layout_port_clavier_1" parent="table_layout">
+        <item name="android:layout_weight">0.75</item>
+    </style>
+
+    <style name="table_layout_port_clavier_2" parent="table_layout">
+        <item name="android:layout_weight">0.75</item>
+    </style>
+</resources>

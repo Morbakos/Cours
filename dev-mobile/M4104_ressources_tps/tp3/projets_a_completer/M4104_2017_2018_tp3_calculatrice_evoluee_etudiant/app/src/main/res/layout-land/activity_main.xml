@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- ************************************************************
+                             Afficheur
+     ************************************************************ -->
+    <TextView android:id="@+id/textView1" style="@style/afficheur"
+        android:maxLines="2"
+        />
+
+    <!-- ************************************************************
+                            Clavier
+         ************************************************************ -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.90"
+        android:orientation="horizontal"
+
+        >
+
+        <TableLayout style="@style/table_layout">
+            <TableRow style="@style/table_row">
+                <Button android:id="@+id/bt_option" android:text="@string/bt_option" style="@style/bouton_calculatrice_chiffre_land"
+                    android:clickable="false"  />
+                <Button android:id="@+id/bt_parentOuv" android:text="@string/bt_parentOuv" style="@style/bouton_calculatrice_chiffre_land"
+                    />
+                <Button android:id="@+id/bt_parentFerm" android:text="@string/bt_parentFerm" style="@style/bouton_calculatrice_chiffre_land"
+                    />
+            </TableRow>
+
+
+            <TableRow style="@style/table_row">
+                <Button android:id="@+id/bt_abs" android:text="@string/bt_abs" style="@style/bouton_calculatrice_fonction_scientifique" />
+                <Button android:id="@+id/bt_sqrt" android:text="@string/bt_sqrt" style="@style/bouton_calculatrice_fonction_scientifique" />
+                <Button android:id="@+id/bt_puiss" android:text="@string/bt_puiss" style="@style/bouton_calculatrice_fonction_scientifique" />
+            </TableRow>
+
+
+           <!-- A compléter -->
+
+
+        </TableLayout>
+
+        <TableLayout style="@style/table_layout"
+            android:layout_weight="0.35"
+            >
+
+
+            <TableRow style="@style/table_row">
+                <Button android:id="@+id/bt_backspace" android:text="@string/bt_backspace" style="@style/bouton_calculatrice_chiffre_land" />
+                <Button android:id="@+id/bt_ac" android:text="@string/bt_ac" style="@style/bouton_calculatrice_chiffre_land" />
+            </TableRow>
+
+
+            <TableRow style="@style/table_row">
+                <Button android:id="@+id/bt_sept" android:text="@string/bt_sept" style="@style/bouton_calculatrice_chiffre_land" />
+                <Button android:id="@+id/bt_huit" android:text="@string/bt_huit" style="@style/bouton_calculatrice_chiffre_land" />
+                <Button android:id="@+id/bt_neuf" android:text="@string/bt_neuf" style="@style/bouton_calculatrice_chiffre_land" />
+
+            </TableRow>
+
+            <!-- A compléter -->
+
+        </TableLayout>
+
+        <TableLayout style="@style/table_layout"
+            android:layout_weight="0.15"
+            >
+
+            <TableRow style="@style/table_row">
+                <Button android:id="@+id/bt_div" android:text="@string/bt_div" style="@style/bouton_calculatrice_chiffre_land" />
+            </TableRow>
+
+
+            <TableRow style="@style/table_row">
+                <Button android:id="@+id/bt_fois" android:text="@string/bt_fois" style="@style/bouton_calculatrice_chiffre_land" />
+            </TableRow>
+
+            <!-- A compléter -->
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

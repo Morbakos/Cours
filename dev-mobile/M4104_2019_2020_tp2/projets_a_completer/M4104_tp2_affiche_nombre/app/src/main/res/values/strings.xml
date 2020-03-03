@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Affichage nombre</string>
+    <string name="invalid_number">Nombre invalide !</string>
+    <string name="et_enter_number">Entrez un nombre entier</string>
+    <string name="bt_display_number">Afficher</string>
+</resources>

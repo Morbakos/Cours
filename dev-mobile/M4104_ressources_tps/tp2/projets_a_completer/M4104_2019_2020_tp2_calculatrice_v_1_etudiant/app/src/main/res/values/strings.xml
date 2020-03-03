@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculatrice_v_1</string>
+    <string name="op_1">opér 1</string>
+    <string name="op_2">opér 2</string>
+    <string name="operateur">+-/*</string>
+    <string name="resultat">résultat</string>
+    <string name="calculer">Calculer</string>
+    <string name="retour">Retour</string>
+</resources>

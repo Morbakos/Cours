@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='M4104_2019_2020'

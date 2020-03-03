@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Affichage d\'un nombre entier</string>
+    <string name="retour">Retour</string>
+    <string name="push_a_number">entre_un_nombre</string>
+    <string name="display">Afficher</string>
+    <string name="invalid_number">Nombre invalide !</string>
+</resources>

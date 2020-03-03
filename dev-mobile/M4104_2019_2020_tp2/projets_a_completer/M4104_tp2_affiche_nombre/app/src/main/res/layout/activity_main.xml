@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/apple_android"
+    android:orientation="vertical"
+    >
+
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="@string/et_enter_number"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorAccent"
+            android:typeface="monospace"
+            android:textSize="18sp"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginRight="@dimen/view_horizontal_margin"
+            android:layout_marginLeft="@dimen/view_horizontal_margin"
+            />
+
+
+    <Button
+        android:id="@+id/bt_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/view_padding"
+        android:text="@string/bt_display_number"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        android:typeface="monospace"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        />
+
+
+
+</LinearLayout>

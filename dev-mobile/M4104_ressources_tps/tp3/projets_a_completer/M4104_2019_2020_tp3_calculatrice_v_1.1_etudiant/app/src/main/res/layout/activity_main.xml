@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_afficheur"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/white"
+        android:textSize="10dp"
+        android:layout_marginBottom="@dimen/afficheur_margin_buttom"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/layout_margin"
+        >
+        <EditText style="@style/style_edittext"
+            android:id="@+id/et_op1"
+            android:hint="@string/op_1"
+            />
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="@dimen/clavier_padding"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button style="@style/style_button"
+                android:id="@+id/id_bt_plus"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
+                android:layout_margin="@dimen/button_marging"
+                android:text="@string/bt_plus"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/id_bt_ac"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
+                android:layout_margin="@dimen/button_marging"
+                android:text="AC"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

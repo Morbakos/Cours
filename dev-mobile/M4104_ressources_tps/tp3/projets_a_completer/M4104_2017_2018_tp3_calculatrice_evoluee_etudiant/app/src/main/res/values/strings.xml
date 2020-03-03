@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">M4104_2015_2016_tp2_calculatrice</string>
+    <string name="action_settings">Settings</string> 
+    <string name="bt_zero">0</string> 
+    <string name="bt_un">1</string>
+    <string name="bt_deux">2</string>
+    <string name="bt_trois">3</string>
+    <string name="bt_quatre">4</string>
+    <string name="bt_cinq">5</string>
+    <string name="bt_six">6</string>
+    <string name="bt_sept">7</string>
+    <string name="bt_huit">8</string>
+    <string name="bt_neuf">9</string>
+    <string name="bt_point">.</string>
+    <string name="bt_ac">AC</string>
+    <string name="bt_plus">+</string>
+    <string name="bt_moins">-</string>   
+    <string name="bt_fois">*</string>   
+    <string name="bt_div">/</string>   
+    <string name="bt_egale">=</string>
+    <string name="bt_parentOuv">(</string>   
+    <string name="bt_parentFerm">)</string>
+    <string name="bt_backspace">BK</string>
+    <string name="bt_cos">cos</string>
+    <string name="bt_sin">sin</string>
+    <string name="bt_tan">tan</string>   
+    <string name="bt_ch">ch</string>   
+    <string name="bt_sh">sh</string>   
+    <string name="bt_th">th</string>
+    <string name="bt_acos">acos</string>
+    <string name="bt_asin">asin</string>
+    <string name="bt_atan">atan</string>
+    <string name="bt_ln">ln</string>
+    <string name="bt_log">log</string>
+    <string name="bt_puiss">^</string>   
+    <string name="bt_sqrt">sqrt</string>
+    <string name="bt_abs">abs</string>   
+    <string name="bt_exp">exp</string>
+    <string name="bt_option"></string>  
+    
+</resources>
