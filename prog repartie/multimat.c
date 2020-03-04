@@ -43,18 +43,14 @@ void *sommeChunk(int i) {
 
 	/*ici calcul du numéro de la première ligne : prem, et der pour le numéro
 	 * de la dernière ligne en fonction de i */
+	 prem = i*chunk;
+	 der = (i+1)*chunk-1;
 
 	/* affichage d'infos système */
 	printf ("#PID:%d, threadSelf:%ld, tid:%ld, i:%d, exécute lignes de %d à %d\n",
             getpid(),(long int)pthread_self(), syscall(SYS_gettid), i,prem,der-1);
 
- // A_COMPLETER
-	for (size_t j = 0; j < A.dim1; j++) {
-		for (size_t k = 0; k < B.dim1; k++) {
-			/* code */
-		}
-	};
-
+	 A_COMPLETER;
 	return(NULL);
 }
 

@@ -1,18 +1,18 @@
 /*
- * This file is part of outilsPourM4102C.  
+ * This file is part of outilsPourM4102C.
  *
  * Copyright (C) 2015-2019 Franck BUTELLE
  *
- * outilsPourM4102C is free software: you can redistribute it and/or modify it 
- * under the terms of the GNU General Public License as published by the Free 
- * Software Foundation, either version 3 of the License, or (at your option) 
+ * outilsPourM4102C is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation, either version 3 of the License, or (at your option)
  * any later version.
 
- * outilsPourM4102C is distributed in the hope that it will be useful, but 
+ * outilsPourM4102C is distributed in the hope that it will be useful, but
  * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
- * or FITNESS FOR A PARTICULAR PURPOSE.  
+ * or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
- * You should have received a copy of the GNU General Public License along 
+ * You should have received a copy of the GNU General Public License along
  * with outilsPourM4102C.  If not, see <http://www.gnu.org/licenses/>
 */
 
@@ -25,6 +25,7 @@
 
 
 void sommeMatrices(matrice_t A, matrice_t B, matrice_t *C) {
+	// On vérifie que les matrices ont les mêmes dimensions
 	if (A.dim1 != B.dim1 || A.dim2 != B.dim2) {
 		fprintf(stderr,"Pb: dimensions dans sommeMatrice: A:(%d,%d) B(%d,%d)\n",
 				A.dim1, A.dim2, B.dim1, B.dim2);
@@ -33,14 +34,33 @@ void sommeMatrices(matrice_t A, matrice_t B, matrice_t *C) {
 	C->dim2=A.dim2;
 
 	/* Attention penser à utiliser la macro MAT(A,i,j) etc*/
-	A_COMPLETER;
+	// A_COMPLETER;
+	int i,j;
+	for (i = 0; i < C->dim1; i++) {
+		for (j = 0; j < C->dim1; j++) {
+			MAT(*C,i,j) = MAT(A,i,j) + MAT(B,i,j);
+		}
+	}
 }
 
 void produitMatrices(matrice_t A, matrice_t B, matrice_t *C) {
+	// On vérifie que les matrices ont les mêmes dimensions
+	if (A.dim1 != B.dim2) {
+		fprintf(stderr,"Pb: dimensions dans sommeMatrice: A:(%d,%d) B(%d,%d)\n",
+				A.dim1, A.dim2, B.dim1, B.dim2);
+	}
 	C->dim1=A.dim1;
 	C->dim2=B.dim2;
-	
-	A_COMPLETER;
+
+	int i,j,k;
+	for (i = 0; i < C->dim1; i++) {
+		for (j = 0; j < C->dim1; j++) {
+			MAT(*C,i,j) = 0;
+			for (k = 0; k < A.dim1; k++) {
+				MAT(*C,i,j) += MAT(A,i,k)*MAT(B,k,j);
+			}
+		}
+	}
 }
 
 /* Allocation mémoire et initialisation des dimensions dans la structure  */
@@ -49,7 +69,7 @@ int initMatrice(int n, int m, matrice_t *mat) {
 		fprintf(stderr,"Attention, la structure doit exister avant l'appel de initMatrice\n");
 		exit(EXIT_FAILURE);
 	}
-	
+
 	mat->dim1 = n;
 	mat->dim2 = m;
 	mat->val = malloc(sizeof(double)*n*m);

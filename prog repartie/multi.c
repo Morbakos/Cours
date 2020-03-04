@@ -1,18 +1,18 @@
 /*
- * This file is part of outilsPourM4102C.  
+ * This file is part of outilsPourM4102C.
  *
  * Copyright (C) 2015-2019 Franck BUTELLE
  *
- * outilsPourM4102C is free software: you can redistribute it and/or modify it 
- * under the terms of the GNU General Public License as published by the Free 
- * Software Foundation, either version 3 of the License, or (at your option) 
+ * outilsPourM4102C is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * outilsPourM4102C is distributed in the hope that it will be useful, but 
+ * outilsPourM4102C is distributed in the hope that it will be useful, but
  * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
- * or FITNESS FOR A PARTICULAR PURPOSE.  
+ * or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
- * You should have received a copy of the GNU General Public License along 
+ * You should have received a copy of the GNU General Public License along
  * with outilsPourM4102C.  If not, see <http://www.gnu.org/licenses/>
  */
 
@@ -38,14 +38,18 @@ pid_t
 proc_start (void *(*fn) (int), int id) {
     pid_t pid;
 
-	A_COMPLETER;
+    pid = fork();
+    if (pid == 0) {
+      fn(id);
+      exit(0);
+    }
     return pid;
 }
 
 /* attend la fin d'un processus */
 int
 proc_join (pid_t id) {
-	A_COMPLETER;
+	waitpid(id,NULL,0);
     return EXIT_SUCCESS;
 }
 
@@ -59,8 +63,9 @@ thread_start (void *(*fn) (int), int id) {
     pthread_t thread_id;
 	int rc;
 
-	A_COMPLETER;
-    /* intptr_t est là pour éviter un warning de conversion de type 
+	// A_COMPLETER;
+  pthread_create(thread_id, NULL, (thread_fn_t)fn, (void *) (intptr_t) id);
+    /* intptr_t est là pour éviter un warning de conversion de type
 	 * car on considère ici un entier comme un pteur */
 	//....  (thread_fn_t)fn, (void *) (intptr_t) id);
 
@@ -72,8 +77,9 @@ thread_start (void *(*fn) (int), int id) {
 int
 thread_join(pthread_t id) {
 	int ret=0;
-	A_COMPLETER;
-	
+   ret = pthread_join(id,NULL);
+	// A_COMPLETER;
+
 	return ret;
 }
 
