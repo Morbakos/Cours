@@ -1,0 +1,64 @@
+body
+{
+	font-family: sans;
+	background-image: url(texture-grise.jpg);
+	padding-top: 100px;
+}
+
+#connectes
+{
+	background-color: #eee;
+	width: 150px;
+	padding: .5em;
+}
+#en-ligne p
+{
+	margin: 0;
+}
+
+
+.popup-mot
+{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.popup
+{
+	position: absolute;
+	display: none;
+	width: 200px;
+	background-color: white;
+	padding: .7em;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	font-size: 12px;
+}
+.popup h2
+{
+	margin-top: .2em;
+}
+
+.popup>.fermer
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: .5em;
+	padding-top: .1em;
+}
+
+.popup .photo
+{
+	width: 80px;
+	height: auto;
+	float: right;
+	margin-left: .2em;
+	margin-bottom: .2em;
+}
+
+.popup>.triangle
+{
+	position: absolute;
+	left: 10px;
+	bottom: -20px;
+}

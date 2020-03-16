@@ -1,0 +1,12 @@
+{
+    "fusil": "M4A1",
+    "accessoiresFusil": {
+        "viseur": "Spitfire 3 RDS low",
+        "canon": "silencieux"
+    },
+    "pistolet": "Glock 17G4",
+    "accessoiresPistolet": {
+        "viseur": "Spitfire 3 RDS low",
+        "canon": "silencieux"
+    }
+}
