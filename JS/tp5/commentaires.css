@@ -1,0 +1,99 @@
+body
+{
+	font-family: sans;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eee;
+}
+#principal
+{
+	background-color: white;
+	padding: 10px;
+}
+
+#principal img
+{
+	width: 580px;
+	height: auto;
+}
+
+#block-commentaires
+{
+	background-color: white;
+	min-height: 300px;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+#pages-commentaires
+{
+}
+
+#commentaires
+{
+	margin-top: 10px;
+}
+
+.commentaire
+{
+	margin: 19px 0;
+}
+.commentaire .nom
+{
+	color: #2793E6;
+	font-weight: bold;
+	margin-right: 13px;
+}
+.commentaire .date
+{
+	color: #888;
+}
+
+.commentaire .contenu-com
+{
+	margin: 3px 0;
+}
+
+.commentaire .pied-com
+{
+	font-size: 11px;
+	color: #888;
+	line-height: 20px;
+}
+
+.commentaire .repondre
+{
+	font-weight: bold;
+}
+
+.commentaire .jaime
+{
+	font-size: 13px;
+	color: #2793E6;
+}
+
+.commentaire .jaime-plus
+{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url(http://moodle.iutv.univ-paris13.fr/img/js/ytp.png);
+	vertical-align: middle;
+}
+
+.commentaire .jaime-moins
+{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url(http://moodle.iutv.univ-paris13.fr/img/js/ytm.png);
+	vertical-align: middle;
+}
+
+#reinitialiser
+{
+	font-size: 10px;
+	float: right;
+}

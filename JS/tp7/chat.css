@@ -1,0 +1,56 @@
+body
+{
+	font-family: sans;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eee;
+}
+#principal
+{
+	background-color: white;
+	padding: 10px;
+}
+
+#principal h2
+{
+	margin: 0;
+	text-align: center;
+	font-size: 130%;
+	width: 400px;
+}
+
+#chat
+{
+	width: 400px;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	list-style: none;
+	padding: 3px;
+	height: 300px;
+	overflow: auto;
+	margin-top: 7px;
+}
+
+#message
+{
+	width: 400px;
+}
+
+#bienvenue
+{
+	color: #aaa;
+	font-style: italic;
+}
+
+#chat .nom
+{
+	color: #00a;
+	font-weight: bold;
+}
+
+#reinitialiser
+{
+	font-size: 10px;
+	float: right;
+}

@@ -1,0 +1,19 @@
+#morpion 
+{
+	border-collapse: collapse;
+}
+
+#morpion td
+{
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#morpion td:hover
+{
+	background-color: #ffc;
+}
